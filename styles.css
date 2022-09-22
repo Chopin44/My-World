@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: rgb(34, 40, 49);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+div.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+
+div.introduction h1 {
+    font-weight: 300;
+}
+
+.hide {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.33s, opacity 0.33s linear;
+}
+
+div.introduction h5 {
+    font-weight: 200;
+}
+
+div.introduction a {
+    color:rgb(57, 62, 70);
+    font-weight: 700;
+    font-size: 16px;
+    margin: 20px;
+    padding: 12px;
+    background-color: greenyellow;
+    border-radius: 15px;
+}
+
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+
+  .navbar {
+    padding: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar ul {
+    display: flex;
+  }
+  .navbar ul li a:hover {
+    color: rgb(255, 211, 105);
+  }
+
+  .navbar ul li {
+    margin: 10px;
+  } 
+
+  div.container {
+    background-color: rgb(57, 62, 70) ;
+    display: flex;
+    margin: 150px 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+  }
+
+  div.container div.text h1 {
+    background-color: rgb(57, 62, 70) ;
+  }
+
+  div.container div.text h5 {
+    background-color: rgb(57, 62, 70) ;
+  }
+
+  div div h5 span{
+    background-color: rgb(57, 62, 70) ;
+    color: rgb(255, 211, 105);
+  }
+
+  img {
+    padding: 20px;
+    background-color: rgb(57, 62, 70);
+  }
