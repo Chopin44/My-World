@@ -65,6 +65,11 @@ div.introduction a {
   }
 
   .navbar {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(255, 211, 105);
+    border-top: 5px;
+    border-width: 4px;
     padding: 20px 200px;
     display: flex;
     justify-content: space-between;
@@ -93,18 +98,48 @@ div.introduction a {
 
   div.container div.text h1 {
     background-color: rgb(57, 62, 70) ;
+    font-size: 48px;
+    text-align: center;
+    padding: 24px 20px 0px;
   }
 
   div.container div.text h5 {
     background-color: rgb(57, 62, 70) ;
+    text-align: center;
+    padding: 0px 24px 0px;
   }
 
-  div div h5 span{
+  div div h1 span{
     background-color: rgb(57, 62, 70) ;
     color: rgb(255, 211, 105);
   }
 
   img {
-    padding: 20px;
+    padding: 24px;
+    margin: 10px;
+    background-color: rgb(57, 62, 70);
+  }
+
+  div.container-2 {
+    border-radius: 20px;
+    background-color: rgb(57, 62, 70);
+    margin: 0px 200px;
+    padding: 50px 200px;
+  }
+
+  div.container-2 .text h1 {
+    margin-bottom: 20px;
+    background-color: rgb(57, 62, 70);
+  }
+
+  div.container-2 .list {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    background-color: rgb(57, 62, 70);
+  }
+
+  div.container-2 .list li {
+    padding: 5px;
     background-color: rgb(57, 62, 70);
   }
