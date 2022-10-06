@@ -6,20 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/29c407e70d.js" crossorigin="anonymous"></script>
+
     <title>My World!</title>
 </head>
 
 <body>
 
-    <div class="navbar">
-        <h1>Logo</h1>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </div>
+    <section class="fixed">
+        <div class="navbar">
+            <h1 style="font-weight: 800;">Chopin</h1>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="">About Me</a></li>
+                <li><a href="#list">Skill</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+
+    </section>
+
 
     <div class="container">
         <div class="text">
@@ -30,32 +37,119 @@
         <img src="./me.svg" alt="person" width="400px">
     </div>
 
+    <div id="list"></div>
+
     <div class="container-2">
         <div class="text">
-            <h1 style="text-align: center;">. My SKill .</h1>
+            <h1 style="text-align: center;">My SKill</h1>
         </div>
 
         <div class="list">
             <ul>
+                <li>HTML Language</li>
+                <div class="skillbar">
+                    <div class="skillsHtml">70%</div>
+                </div>
+                <li>CSS Language</li>
+                <div class="skillbar">
+                    <div class="skillsCss">40%</div>
+                </div>
                 <li>Javascript Language</li>
-                <li>PHP Language</li>
-                <li>Phyton Language</li>
+                <div class="skillbar">
+                    <div class="skillsJavascript">40%</div>
+                </div>
             </ul>
 
             <ul>
-                <li>Javascript Language</li>
+                <li>Git & Github</li>
+                <div class="skillbar">
+                    <div class="skillsGit">70%</div>
+                </div>
                 <li>PHP Language</li>
-                <li>Phyton Language</li>
+                <div class="skillbar">
+                    <div class="skillsPhp">20%</div>
+                </div>
+                <li>Python Language</li>
+                <div class="skillbar">
+                    <div class="skillsPython">20%</div>
+                </div>
             </ul>
 
             <ul>
-                <li>Javascript Language</li>
-                <li>PHP Language</li>
-                <li>Phyton Language</li>
+                <li>React Js</li>
+                <div class="skillbar">
+                    <div class="skillsReact">30%</div>
+                </div>
+                <li>Express Js</li>
+                <div class="skillbar">
+                    <div class="skillsExpress">30%</div>
+                </div>
+                <li>Blockchain Technology</li>
+                <div class="skillbar">
+                    <div class="skillsBlockchain">40%</div>
+                </div>
             </ul>
         </div>
 
     </div>
+
+    <div class="container-3">
+        <h1 style="text-align: center; margin: 20px;">Ask Me Anything</h1>
+        <form action="https://getform.io/f/f2b57651-5d3a-4548-83d7-f9d4b20937fb" method="POST">
+            <div id="ask-1">
+                <input type="text" name="email" placeholder="Enter Email" style="width: 300px; padding: 
+                    12px;background-color: blanchedalmond; 
+                    color: black; border: none;">
+            </div>
+            <div id="ask-2">
+                <input type="text" name="name" placeholder="Enter Name" style="width: 300px;
+                border: none;
+                padding: 12px;
+                background-color: blanchedalmond;
+                color: black;">
+            </div>
+            <div id="ask-3">
+                <textarea name="message" placeholder="Enter Question" id="" cols="44" rows="5" style="text-align: center;  
+                    background-color: blanchedalmond; 
+                    border: none; 
+                    color: black;
+                    padding: 12px;
+                    "></textarea>
+            </div>
+            <div style="text-align: center;">
+                <button
+                    style="background-color:  rgb(255, 211, 105); font-size: 20px; padding: 10px; font-weight: bold;">Submit</button>
+            </div>
+
+        </form>
+    </div>
+
+
+
+    <footer class="footer" id="contact">
+        <div class="medsos">
+            <h2>You can contact me on : </h2>
+            <ul>
+                <div id="text-icon">
+                    <i class="fa-brands fa-square-instagram fa-beat "
+                        style="color: rgb(253, 29, 29); --fa-animation-duration: 1s;"></i>
+                    <p>Instagram</p>
+                </div>
+                <div id="text-icon">
+                    <i class="fa-brands fa-square-facebook fa-beat"
+                        style="color: rgb(66, 103, 178); --fa-animation-duration: 1.1s;"></i>
+                    <p>Facebook</p>
+                </div>
+                <div id="text-icon">
+                    <i class="fa-brands fa-square-twitter fa-beat "
+                        style="color: rgb(29, 161, 242); --fa-animation-duration: 1.2s;"></i>
+                    <p>Twitter</p>
+                </div>
+            </ul>
+            <p style="text-align: center; font-weight: 200;">Copyright &copy; Rodhi Andriansah 2022, All rights reserved
+            </p>
+        </div>
+    </footer>
 
 
 

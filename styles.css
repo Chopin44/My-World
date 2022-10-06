@@ -13,6 +13,7 @@
 
 
 
+
 div.introduction {
     display: flex;
     flex-direction: column;
@@ -64,20 +65,27 @@ div.introduction a {
     100% { transform: rotate( 0.0deg) }
   }
 
+  .fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
   .navbar {
-    border-radius: 5px;
-    border-style: solid;
-    border-color: rgb(255, 211, 105);
-    border-top: 5px;
-    border-width: 4px;
+    background-color: rgb(255, 211, 105);
     padding: 20px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
+  .navbar h1 {
+    background-color: rgb(255, 211, 105);
+  }
+
   .navbar ul {
     display: flex;
+    border-radius: 12px;
   }
   .navbar ul li a:hover {
     color: rgb(255, 211, 105);
@@ -90,7 +98,7 @@ div.introduction a {
   div.container {
     background-color: rgb(57, 62, 70) ;
     display: flex;
-    margin: 150px 200px;
+    margin: 200px 200px;
     justify-content: space-around;
     align-items: center;
     border-radius: 20px;
@@ -123,23 +131,166 @@ div.introduction a {
   div.container-2 {
     border-radius: 20px;
     background-color: rgb(57, 62, 70);
-    margin: 0px 200px;
+    margin: 0px 200px 0px;
     padding: 50px 200px;
   }
 
   div.container-2 .text h1 {
     margin-bottom: 20px;
+    margin-top: 50px;
+    font-weight: 400;
     background-color: rgb(57, 62, 70);
   }
 
   div.container-2 .list {
     display: flex;
-    margin-bottom: 20px;
+    margin: 60px;
     justify-content: space-around;
     background-color: rgb(57, 62, 70);
   }
 
   div.container-2 .list li {
-    padding: 5px;
+    padding: 20px;
     background-color: rgb(57, 62, 70);
+  }
+
+  .skillbar {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+
+  .skillbar .skillsHtml 
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsCss
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsJavascript 
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsGit
+  {
+    width: 70%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsPhp
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+
+  .skillbar .skillsPython
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+
+  .skillbar .skillsReact
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsExpress
+  {
+    width: 20%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+  .skillbar .skillsBlockchain
+  {
+    width: 40%;
+    text-align: right; 
+    padding: 5px 10px;
+    color: white; 
+  }
+
+  div.container-3 {
+    
+    border-radius: 20px;
+   
+    margin: 200px 200px 0px;
+    padding: 0px 200px;
+  }
+
+
+#ask-1 {
+ 
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+ 
+}
+#ask-2 {
+
+  display: flex;
+  margin: 10px;
+  justify-content: space-evenly;
+ 
+}
+
+#ask-3 {
+
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+
+  .footer {
+    margin-top: 100px;
+    background-color: rgb(255, 211, 105); 
+    padding: 50px;
+  }
+
+  .footer div.medsos {
+    background-color:  rgb(255, 211, 105) ;
+    padding: 0px 200px;
+    margin: 0px 200px;
+  }
+
+  .footer div.medsos ul {
+    background-color:  rgb(255, 211, 105);
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 200px;
+  }
+  .footer div.medsos h2 {
+    background-color:  rgb(255, 211, 105);
+    text-align: center;
+    font-weight: 400;
+  }
+
+  p {
+    background-color: rgb(255, 211, 105) ;
+  }
+
+  i {
+    font-size: 50px;
+    background-color: rgb(255, 211, 105) ;
+    margin: 10px;
+  }
+
+  #text-icon {
+    text-align: center;
+    background-color: rgb(255, 211, 105) ;
   }
