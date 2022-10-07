@@ -12,8 +12,6 @@
 }
 
 
-
-
 div.introduction {
     display: flex;
     flex-direction: column;
@@ -294,3 +292,50 @@ div.introduction a {
     text-align: center;
     background-color: rgb(255, 211, 105) ;
   }
+
+  #text-icon a {
+    background-color: rgb(255, 211, 105) ;
+  }
+
+  section.container-blog {
+      background-color: rgb(57, 62, 70);
+      margin: 100px 200px 0px;
+      padding: 24px 200px;
+  }
+
+  .project {
+    background-color: rgb(57, 62, 70);
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .project a {
+    background-color: rgb(57, 62, 70);
+  }
+
+  section.container-blog h1 {
+    font-size: 36px;
+}
+
+  .project h2 {
+    background-color: rgb(255, 211, 105) ;
+    margin: 48px;
+    padding: 20px;
+    border-radius: 24px;
+    font-weight: 400;
+  }
+
+  .project img {
+    width: 60%;
+  }
+
+  hr.line {
+    color: white;
+    background-color: white;
+   
+  }
+
+ 
+
+
